@@ -1,0 +1,80 @@
+.transparent-btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-family: 'Kyiv*Type Sherif', serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.transparent-btn {
+    width: 100%;
+    font-family: 'Kyiv*Type Sherif', serif;
+}
+
+.contact-info {
+    font-weight: 700;
+    font-family: 'Kyiv*Type Sherif', serif;
+}
+
+.card-title {
+    font-family: 'Kyiv*Type Sherif', serif;
+    font-weight: 700;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    width: 50px; 
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-info {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon img {
+    width: 45px;
+    height: 45px;
+}
+
+.card{
+    background-color: #D2E4EC;
+    border: 2px solid black;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.carousel {
+    margin-left: 17%;
+    margin-top: 2%;
+}
+
+body {
+    font-family: 'Kyiv*Type Sherif', serif;
+    padding-bottom: 50px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 14%;
+}
+

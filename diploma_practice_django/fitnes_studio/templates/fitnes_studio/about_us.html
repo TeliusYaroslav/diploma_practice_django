@@ -1,0 +1,66 @@
+{% extends 'fitnes_studio/base.html' %}
+{% load static %}
+{% block link %}
+
+<link rel="stylesheet" href="{% static 'fitnes_studio/css/about_us.css' %}">
+
+{% endblock %}
+
+{% block content%}
+    <div class="row lg" id="main">
+        <div class="info"> 
+            <div class="col">
+                <p>Запрошуємо до нашого чудового дитячого фітнес-клубу!</p>
+            </div>
+            <div class="col">
+                <p>Місце, де ваші діти з радістю будуть розвиватись фізично та інтелектуально!</p>
+            </div>
+            <div class="col">
+                <p>Пропонуємо широкий спектр програм для дітей різного віку:</p>
+                <ul>
+                    <li>Дитячий фітнес</li>
+                    <li>ЛФК</li>
+                    <li>Рухливі ігри</li>
+                    <li>ЗФП</li>
+                    <li>Сенсорна інтеграція</li>
+                    <li>Мозочкова стимуляція</li>
+                </ul>
+            </div>
+            <div class="col">
+                <p>У нашому клубі працюють досвідчені та кваліфіковані тренери, які люблять дітей та знають, як зробити тренування цікавими та корисними.</p>
+            </div>
+            <div class="col">
+                <p>Ми пропонуємо:</p>
+                <ul>
+                    <li>Комфортні та безпечні зали</li>
+                    <li>Сучасне обладнання</li>
+                    <li>Зручний графік занять</li>
+                    <li>Доступні ціни</li>                
+                </ul>
+            </div>
+            <div class="col">
+                <p>Завітайте до нас і переконайтеся самі, що наш фітнес-клуб - це найкраще місце для розвитку вашої дитини!</p>
+            </div>
+        </div>
+        <div class="row" style="width: 900;" id="img_div">
+            <div class="col-lg-6" id="img">
+                <img src="{% static 'fitnes_studio/img/gl1 (1).jpg' %}" alt="">
+            </div>
+            <div class="col-lg-6" id="img">
+                <img src="{% static 'fitnes_studio/img/gl1 (2).jpg' %}" alt="">
+            </div>
+            <div class="col-lg-6" id="img">
+                <img src="{% static 'fitnes_studio/img/gl1 (3).jpg' %}" alt="">
+            </div>
+            <div class="col-lg-1" id="img">
+                <img src="{% static 'fitnes_studio/img/gl1 (4).jpg' %}" alt="">
+            </div>
+            <div class="col-lg-6" id="img">
+                <img src="{% static 'fitnes_studio/img/gl1 (5).jpg' %}" alt="">
+            </div>
+            <div class="col-lg-1" id="img">
+                <img src="{% static 'fitnes_studio/img/gl1 (6).jpg' %}" alt="">
+            </div>
+        </div> 
+    </div>
+{% endblock %}

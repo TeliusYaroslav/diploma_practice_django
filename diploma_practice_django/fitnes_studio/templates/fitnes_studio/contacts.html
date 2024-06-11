@@ -1,0 +1,87 @@
+{% extends 'fitnes_studio/base.html' %}
+{% load static %}
+{% block link %}
+<style>
+    .custom-card {
+        font-family: 'Kyiv*Type Serif', serif;
+        font-weight: 400;
+        font-size: 28px;
+        background-color: #AECBEA; 
+        text-align: center; 
+        padding: 20px;
+        border-radius: 20px; 
+        width: 620px;
+        height: 604px;
+    }
+    .horizontal-list {
+        display: flex;
+        justify-content: center; 
+        gap: 28px;
+    }
+    .custom-card h2 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .custom-card .section-title {
+        font-weight: 550;
+        margin-bottom: 0;
+    }
+    .center-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .col {
+        padding-right: 30px;
+    }
+    .col img {
+        max-width: 100.4%;
+        display: block;
+        padding: 0 auto; 
+    }
+    .col:last-child {
+        display: flex;
+        align-items: flex-start;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class="center-div">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="custom-card border">
+                    <h2>Нашi контакти:</h2>
+                    <p><span class="section-title">Задати питання:</span><br>066-088-78-92<br>або у direct @anastasiia.tkachuk800</p>
+                    <p><span class="section-title">Адреса:</span><br>КДЦ Дніпропресс вул. Василя Сліпака 35</p>
+                    <p><span class="section-title">Графік тренувань:</span></p>
+                    <div class="horizontal-list">
+                        <div>
+                            <p>Пн-ср-пт:<br>15:00<br>16:00<br>17:15</p>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Вт-чт:<br>16:00<br>17:15</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <a href="https://www.google.de/maps/search/%D0%9A%D0%94%D0%A6+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D1%80%D0%B5%D1%81%D1%81+%D0%B2%D1%83%D0%BB.+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8F+%D0%A1%D0%BB%D1%96%D0%BF%D0%B0%D0%BA%D0%B0+35/@48.4109949,35.0057741,19.25z?entry=ttu">
+                    <img src="{% static 'fitnes_studio/img/gmap.png' %}" alt="Гугл-карта">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="btn-div" style="text-align: center; margin-top: 70px;">
+    <button class="btn btn1" style="font-weight: bold; border: 2px solid #000; border-radius: 10px; padding: 20px 40px; font-size: 38px;">
+        <a class="nav-link btn me-2" href="{% url 'appointment' %}" style="font-size: 38px; text-decoration: none; color: inherit;">
+            Запис
+        </a>
+    </button>
+</div>
+{% endblock %}

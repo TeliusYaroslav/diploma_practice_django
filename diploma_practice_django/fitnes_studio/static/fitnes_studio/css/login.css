@@ -1,0 +1,29 @@
+* {
+    background-color: #D2E4EC;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin-top: 12%;
+    padding: 5%;
+}
+
+form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.form-div{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2E4EC;;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 600px;
+
+}
+
+form{
+    background-color: #D2E4EC;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+

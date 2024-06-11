@@ -1,0 +1,25 @@
+.info {
+    background-color: #91B7FA;
+    width: 1000px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Kyiv*Type Sherif', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+#img_div img {
+    width: 375px;
+    height: 250px;
+    margin-bottom: 7px;
+    margin-top: 18px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 3px solid #91B7FA;
+}
+
+#main {
+    width: 1910px;
+    margin-left: 10px;
+}
